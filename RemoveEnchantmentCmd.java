@@ -76,7 +76,7 @@ public class RemoveEnchantCmd implements CommandExecutor {
 									return true;
 								}								
 							} catch(NullPointerException ex) {
-								p.sendMessage(Util.Translate("&c&l(!) &cCould not find the enchant '"+enchant+"' in the item meta!"));
+								p.sendMessage(Util.Translate("&c&l(!) &cCould not find the enchant '"+enchant+"' in the item metadata!"));
 							}
 						} else {
 							p.sendMessage(Util.Translate("&c&l(!) &cThis item does not have any item metadata!"));

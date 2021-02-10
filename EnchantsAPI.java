@@ -15,7 +15,9 @@ public class EnchantsAPI {
             if(nbtItem.hasNBTData()) {
                 for(String key : nbtItem.getKeys()) {
                     if(key.startsWith("ae_enchantment")) {
-                        return key.split(";")[1].equalsIgnoreCase(enchantment);
+                        if(key.split(";")[1].equals(enchantment)) { // Fixes Bug #1: Check if the enchant found matches the param enchant then return accordingly, unlike the previous version where it just ended the loop after the first comparison
+                            return key.split(";")[1].equalsIgnoreCase(enchantment);
+                        }
                     }
                 }
             }

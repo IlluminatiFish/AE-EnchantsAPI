@@ -2,7 +2,6 @@ package me.illuminatifish.enchantsapi.Cmds;
 
 import java.util.List;
 import org.bukkit.ChatColor;
-import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;

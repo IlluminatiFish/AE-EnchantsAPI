@@ -2,7 +2,6 @@ package me.illuminatifish.enchantsapi.Cmds;
 
 import me.illuminatifish.enchantsapi.EnchantsAPI;
 import me.illuminatifish.enchantsapi.Utils.Utils;
-import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
